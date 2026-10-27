@@ -5,7 +5,7 @@ import sys
 
 
 def main():
-    """Run administrative tasks."""
+    """Load project settings and dispatch command-line arguments to Django."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangocrud.settings')
     try:
         from django.core.management import execute_from_command_line

@@ -1,3 +1,8 @@
+"""Expose the car CRUD router and browsable API documentation routes.
+
+The project includes this URLconf under the `/cars/` prefix.
+"""
+
 from django.urls import path, include
 from rest_framework.documentation import include_docs_urls
 from rest_framework import routers
